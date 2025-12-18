@@ -1,4 +1,4 @@
-# Network Programming and Automation Essentials (Chapters 04–10)
+# Network Programming and Automation Essentials (Chapters 04–11) + Socket-App
 
 ## 📚 Ringkasan Chapter
 
@@ -85,3 +85,49 @@ curl "http://localhost:9002/latency?target=8.8.4.4&target=1.0.0.1"
 
   - `config-backup.go`, `device-discovery.go`
   - `ip-config-automation.go`, `link-checker.go`
+
+### Chapter 11 – Socket Programming
+
+- Dasar socket programming dengan Python.
+- TCP & UDP client-server, echo server, SNTP client, socket error handling.
+- File penting:
+
+  - `11_1_local_machine_info.py`
+  - `11_2_remote_machine_info.py`
+  - `11_3_ip4_address_conversion.py`
+  - `11_4_finding_service_name.py`
+  - `11_5_integer_conversion.py`
+  - `11_6_socket_timeout.py`
+  - `11_7_socket_errors.py`
+  - `11_8_modify_buff_size.py`
+  - `11_9_socket_modes.py`
+  - `11_10_reuse_socket_address.py`
+  - `11_11_print_machine_time.py`
+  - `11_12_sntp_client.py`
+  - `11_13a_echo_server.py`
+  - `11_13b_echo_client.py`
+  - `11_14a_echo_server_udp.py`
+  - `11_14b_echo_client_udp.py`
+
+### Socket-App
+
+- Project Python untuk chat app berbasis socket dan UDP.
+- Struktur folder:
+
+  ```
+  main.py
+  network/
+      udp_client.py
+      message_handler.py
+  ui/
+      chat_window.py
+      components.py
+  utils/
+      helpers.py
+  ```
+
+- Fitur:
+
+  - GUI chat window
+  - UDP client-server messaging
+  - Message handling & helper utilities
