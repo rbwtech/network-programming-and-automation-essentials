@@ -8,7 +8,7 @@ def main():
     # Set application properties
     app.setApplicationName("UDP Chat")
     app.setApplicationVersion("1.0")
-    app.setOrganizationName("TriaTech")
+    app.setOrganizationName("RBW Room")
     
     # Create and show main window
     window = ChatWindow()
