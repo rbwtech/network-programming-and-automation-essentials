@@ -23,7 +23,7 @@ class ChatWindow(QMainWindow):
     
     def setup_ui(self):
         """Setup main UI"""
-        self.setWindowTitle("UDP Chat - TriaTech")
+        self.setWindowTitle("UDP Chat - RBW Room")
         self.setGeometry(100, 100, 800, 600)
         
         # Create central widget
